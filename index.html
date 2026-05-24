@@ -25,27 +25,59 @@
     50% { transform: scale(1.15); }
   }
 
-  .pulse {
-    display: inline-block;
-    animation-name: pulseAnimation;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: both;
+    .pulse {
+      display: inline-block;
+      animation-name: pulseAnimation;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: both;
   }
-  .mainbtn:hover {
-    background-color: #cc0000;
+    body {
+      margin: 0;
+      padding: 0;
+  }
+
+    h2, p {
+      margin: 10px;
+  }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+  }
+
+    ul li {
+      float: left;
+  }
+
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+    ul li a:hover {
+      background-color: #111111;
+  }
+    .mainbtn:hover {
+      background-color: #cc0000;
   }
 </style>
   </head>
   <body>
-    <p><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</p><!--
-    
-    --><button class="mainbtn" onclick="alert('or or a nor hello')">Press me!</button><!--
-    --><button class="mainbtn" onclick="alert('or or a nor hello')">Also me!</button><!--
-    --><button class="mainbtn" onclick="alert('or or a nor hello')">Maybe me!</button><!--
-    --><button class="mainbtn" onclick="alert('or or a nor hello')">Or me!</button><!--
-    --><h1 class="pulse">Sample Text</h1>
+    <p><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</p>
+    <ul>
+      <li><button class="mainbtn" onclick="alert('or or a nor hello')">Press me!</button></li><!--
+      --><li><button class="mainbtn" onclick="alert('or or a nor hello')">Maybe me!</button></li><!--
+      --><li><button class="mainbtn" onclick="alert('or or a nor hello')">Or me!</button></li>
+    </ul>
+    <h1 class="pulse">Sample Text</h1>
   </body>
 </html>
