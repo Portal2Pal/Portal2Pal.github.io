@@ -20,7 +20,19 @@
     border-color: #ff9900;
     cursor: pointer;
   }
+  @keyframes pulseAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+  }
 
+  .pulse {
+    animation-name: pulseAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+  }
   .mainbtn:hover {
     background-color: #cc0000;
   }
@@ -33,6 +45,6 @@
     --><button class="mainbtn" onclick="alert('or or a nor hello')">Also me!</button><!--
     --><button class="mainbtn" onclick="alert('or or a nor hello')">Maybe me!</button><!--
     --><button class="mainbtn" onclick="alert('or or a nor hello')">Or me!</button>
-    
+    <p class="pulse">Sample Text</p>
   </body>
 </html>
