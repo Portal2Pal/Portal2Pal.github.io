@@ -9,5 +9,13 @@
   </head>
   <body>
     <p><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</p>
+    <script>
+    const genNumber = () => {
+      document.querySelector("div").style.setProperty("--percent", Math.random());
+    };
+
+    setInterval(genNumber, 2000);
+    setTimeout(genNumber);
+    </script>
   </body>
 </html>
