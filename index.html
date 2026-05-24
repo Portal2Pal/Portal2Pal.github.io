@@ -10,7 +10,7 @@
     body {margin: 0;}
     .mainbtn {
       background: linear-gradient(0deg, #c01c28 50%, #e01b24 50%);
-      width: 25vw;
+      width: 240px;
       color: white;
       font-size: 20px;
       font-family: arial;
@@ -95,25 +95,27 @@
   </head>
   <body>
   <table style="width:960px">
-    <marquee scrollamount="5"><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</marquee>
-    <ul><!--
-      --><li><button class="mainbtn" onclick="window.location.href='about.html';">About</button></li><!--
-      --><li><button class="mainbtn" onclick="alert('coming soon')">Games</button></li><!--
-      --><li><button class="mainbtn" onclick="confirmYoutube()">My YouTube</button></li>
-    </ul>
-    <script>
-      function confirmYoutube() {
-        // Opens the confirm() dialog
-        if (confirm("Do you want to visit my yt?")) {
-          // Redirects if OK is pressed
-          window.location.href = "https://youtube.com/@portal2pal";
+    <tr>
+      <marquee scrollamount="5"><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</marquee>
+      <ul><!--
+        --><li><button class="mainbtn" onclick="window.location.href='about.html';">About</button></li><!--
+        --><li><button class="mainbtn" onclick="alert('coming soon')">Games</button></li><!--
+        --><li><button class="mainbtn" onclick="confirmYoutube()">My YouTube</button></li>
+      </ul>
+      <script>
+        function confirmYoutube() {
+          // Opens the confirm() dialog
+          if (confirm("Do you want to visit my yt?")) {
+            // Redirects if OK is pressed
+            window.location.href = "https://youtube.com/@portal2pal";
+          }
         }
-      }
-    </script>
-      <h2>heyheyhey</h2>
-      <p>Welcome to the homepage of my website!</p>
-    <!--<h1 class="pulsing">Sample Text</h1>-->
-    <!--<h1 class="spining">spiiiinn</h1>-->
+      </script>
+        <h2>heyheyhey</h2>
+        <p>Welcome to the homepage of my website!</p>
+      <!--<h1 class="pulsing">Sample Text</h1>-->
+      <!--<h1 class="spining">spiiiinn</h1>-->
+    </tr>
   </table>
   </body>
 </html>
