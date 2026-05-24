@@ -26,11 +26,24 @@
     50% { transform: scale(1.15); }
   }
 
-    .pulse {
+    .pulsing {
       display: inline-block;
       animation-name: pulseAnimation;
       animation-duration: 1s;
       animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: both;
+  }
+    @keyframes spinAnimation {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+    .spining {
+      animation-name: spinAnimation;
+      animation-duration: 1s;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
       animation-iteration-count: infinite;
       animation-direction: normal;
       animation-fill-mode: both;
@@ -80,6 +93,7 @@
       --><li><button class="mainbtn" onclick="alert('or or a nor hello')">Maybe me!</button></li><!--
       --><li><button class="mainbtn" onclick="alert('or or a nor hello')">Or me!</button></li>
     </ul>
-    <!--<h1 class="pulse">Sample Text</h1>-->
+    <!--<h1 class="pulsing">Sample Text</h1>-->
+    <h1 class="spining">spiiiinn</h1>
   </body>
 </html>
