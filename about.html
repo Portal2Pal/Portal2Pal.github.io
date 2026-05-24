@@ -1,12 +1,111 @@
 <!doctype html>
 <html>
   <head>
-    <title>About</title>
+    <title>My website!</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6804697564161122"
      crossorigin="anonymous"></script>
+  <style>
+    html, body { max-width: 100%; overflow-x: hidden; }
+    .mainbtn {
+      background: linear-gradient(0deg, #f12711 0%, #f5af19 100%);
+      width: 25vw;
+      color: white;
+      font-size: 20px;
+      font-family: arial;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: none;
+      border-radius: 0px;
+      border-style: ridge;
+      border-color: #ff9900;
+      cursor: pointer;
+  }
+    .mainbtn:active {
+      background: linear-gradient(180deg, #f12711 0%, #f5af19 100%);
+  }
+  
+  }
+    @keyframes pulseAnimation {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+  }
+
+    .pulsing {
+      display: inline-block;
+      animation-name: pulseAnimation;
+      animation-duration: 1s;
+      animation-timing-function: ease;
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: both;
+  }
+    @keyframes spinAnimation {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+  }
+
+    .spining {
+      display: inline-block;
+      animation-name: spinAnimation;
+      animation-duration: 1s;
+      animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+      animation-iteration-count: infinite;
+      animation-direction: normal;
+      animation-fill-mode: both;
+  }
+    body {
+      margin: 0;
+      padding: 0;
+  }
+
+    h2, p {
+      margin: 10px;
+  }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333333;
+  }
+
+    ul li {
+      float: left;
+  }
+
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+    ul li a:hover {
+      background-color: #111111;
+</style>
   </head>
   <body>
+    <marquee scrollamount="5"><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</marquee>
+    <ul>
+      <li><a href="about.html"><button class="mainbtn">About</button></a></li>
+      <li><button class="mainbtn" onclick="alert('coming soon')">Mystery buttons</button></li>
+      <li><button class="mainbtn" onclick="alert('coming soon')">Games</button></li>
+      <li><button class="mainbtn" onclick="confirmYoutube()">My YouTube</button></li>
+    </ul>
+    <script>
+      function confirmYoutube() {
+        // Opens the confirm() dialog
+        if (confirm("Do you want to visit my yt?")) {
+          // Redirects if OK is pressed
+          window.location.href = "https://youtube.com/@portal2pal";
+        }
+      }
+  </script>
+    <!--<h1 class="pulsing">Sample Text</h1>-->
+    <!--<h1 class="spining">spiiiinn</h1>-->
     <h2>About</h2>
     <p>I oringanally created this website, and then reused it for learning html!</p>
   </body>
