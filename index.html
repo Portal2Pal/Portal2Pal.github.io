@@ -6,16 +6,24 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6804697564161122"
      crossorigin="anonymous"></script>
+  <style>
+  .mainbtn {
+    background-color: #ff0000;
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .mainbtn:hover {
+    background-color: #990000;
+  }
+</style>
   </head>
   <body>
     <p><strong>Welcome to my website!</strong> currently, I'm not doing much, but that could change!</p>
-    <script>
-    const genNumber = () => {
-      document.querySelector("div").style.setProperty("--percent", Math.random());
-    };
-
-    setInterval(genNumber, 2000);
-    setTimeout(genNumber);
-    </script>
+    <button class="mainbtn">Press me!></button>
   </body>
 </html>
