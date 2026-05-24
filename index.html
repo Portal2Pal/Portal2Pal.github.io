@@ -5,21 +5,6 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6804697564161122"
      crossorigin="anonymous"></script>
-    <script>
-      var count = 60000;
-      var counter = setInterval(timer, 10);
-
-      function timer()
-      {
-          if (count <= 0)
-          {
-              clearInterval(counter);
-              return;
-           }
-           count--;
-           document.getElementById("Timer").innerHTML=count /100;
-      }
-    </script>
   <style>
     html, body { max-width: 100%; overflow-x: hidden; }
     .mainbtn {
@@ -112,10 +97,5 @@
     </ul>
     <!--<h1 class="pulsing">Sample Text</h1>-->
     <!--<h1 class="spining">spiiiinn</h1>-->
-    <div class="row">
-        <span class="timer timerback">00:00</span>
-        <span id="Timer" class="timer timerfront">60:00</span>
-        <span class="seconds">Seconds</span>
-    </div>
   </body>
 </html>
