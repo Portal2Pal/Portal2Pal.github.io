@@ -20,7 +20,13 @@
     .mainbtn:active {
       background: linear-gradient(180deg, #c01c28 50%, #e01b24 50%);
   }
+
+    #contentbox {
+	BACKGROUND: #FFFFFF; WIDTH: 708px; PADDING-TOP: 0px; PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px
+  }
   
+    #holder {
+	TEXT-ALIGN: left; WIDTH: 732px; MARGIN: auto
   }
     @keyframes pulseAnimation {
     0%, 100% { transform: scale(1); }
