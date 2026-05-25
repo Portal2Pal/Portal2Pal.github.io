@@ -16,13 +16,13 @@
       border-style: ridge;
       border-color: #e01b24;
       cursor: pointer;
-	  transition-duration: 0.4s;
+	  transition-duration: 0.1s;
   }
     .mainbtn:active {
       background: linear-gradient(180deg, #c01c28 50%, #e01b24 50%);
   }
     .mainbtn:hover {
-      text-shadow: 0 0 10px #ffffff;
+      text-shadow: 0 0 30px #ffffff;
   }
 
     #contentbox {
