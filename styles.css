@@ -1,5 +1,8 @@
     html, body { max-width: 100%; overflow-x: hidden; }
-    body {margin: 0;}
+    body {
+      margin: 0;
+      background: linear-gradient(0deg, #ffffff 0%, #111111 100%);
+    }
     .mainbtn {
       background: linear-gradient(0deg, #c01c28 50%, #e01b24 50%);
       width: 240px;
