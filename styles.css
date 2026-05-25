@@ -5,7 +5,8 @@
     }
     .mainbtn {
       background: linear-gradient(0deg, #c01c28 50%, #e01b24 50%);
-      width: 240px;
+      width: 183px;
+	  height: 50px;
       color: white;
       font-size: 20px;
       font-family: arial;
