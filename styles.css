@@ -1,7 +1,7 @@
     html, body { max-width: 100%; overflow-x: hidden; }
     body {
       margin: 0;
-      background-image: linear-gradient(0deg, #ffffff 0%, #111111 100%);
+      background-image: linear-gradient(180deg, #ffffff 0%, #aeaeae 100%);
     }
     .mainbtn {
       background: linear-gradient(0deg, #c01c28 50%, #e01b24 50%);
