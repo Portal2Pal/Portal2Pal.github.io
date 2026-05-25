@@ -5,9 +5,7 @@
     }
     .mainbtn {
       background: linear-gradient(0deg, #c01c28 50%, #e01b24 50%);
-      display: inline-block;
 	  width: 183px;
-	  height: 50px;
       color: white;
       font-size: 20px;
       font-family: arial;
@@ -24,7 +22,7 @@
       background: linear-gradient(180deg, #c01c28 50%, #e01b24 50%);
   }
     .mainbtn:hover {
-      font-size: 30px;
+      text-shadow: 0 0 10px #ffffff;
   }
 
     #contentbox {
