@@ -20,6 +20,10 @@
     .mainbtn:active {
       background: linear-gradient(180deg, #c01c28 50%, #e01b24 50%);
   }
+    .mainbtn:hover {
+      font-size: 40px;
+	  transition-duration: 0.4s;
+  }
 
     #contentbox {
 	BACKGROUND: #FFFFFF; WIDTH: 708px; PADDING-TOP: 0px; PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px
